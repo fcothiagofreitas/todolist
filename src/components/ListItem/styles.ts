@@ -54,8 +54,14 @@ export const styles = StyleSheet.create({
   delete: {
     color: COLORS.gray300,
   },
+  deletePress: {
+    color: COLORS.danger,
+  },
   deleteBtn: {
-    width: 24,
-    height: 24,
+    width: 32,
+    height: 32,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 4,
   },
 });
